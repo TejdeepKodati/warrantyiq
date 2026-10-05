@@ -117,7 +117,7 @@ npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-**Live Production Deployment**: [https://warrantyiq.vercel.app](https://warrantyiq.vercel.app)  
+**Live Production Deployment**: [https://warrantyiq-phi.vercel.app](https://warrantyiq-phi.vercel.app)  
 **GitHub Repository**: [https://github.com/TejdeepKodati/warrantyiq](https://github.com/TejdeepKodati/warrantyiq)
 
 ---
