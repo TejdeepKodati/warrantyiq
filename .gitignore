@@ -39,3 +39,5 @@ next-env.d.ts
 *.a
 *.lib
 cpp_engine/build/
+
+.vercel

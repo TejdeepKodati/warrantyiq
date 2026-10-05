@@ -65,7 +65,7 @@ export default function WarrantyIQDashboard() {
                 </span>
               </div>
               <p className="text-xs text-gray-400">
-                Predictive Warranty &amp; After-Market Telemetry Intelligence | Accenture S&amp;C After-Market Strategy
+                Predictive Warranty &amp; After-Market Telemetry Intelligence Platform
               </p>
             </div>
           </div>
@@ -83,10 +83,9 @@ export default function WarrantyIQDashboard() {
               href="https://github.com/TejdeepKodati/warrantyiq"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center space-x-1 px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-medium transition"
+              className="text-gray-400 hover:text-white transition flex items-center space-x-1 text-xs font-medium px-2 py-1"
             >
-              <span>GitHub Repo</span>
-              <ExternalLink className="w-3 h-3" />
+              <span>made with <span className="text-rose-500">❤️</span> by tejdeep</span>
             </a>
           </div>
         </div>
@@ -577,7 +576,7 @@ export default function WarrantyIQDashboard() {
                   <strong className="text-white">Executive Summary:</strong> Telemetry cross-correlation indicates a systemic thermal diode failure in 48V starter alternators within dealer cluster <code className="text-cyan-300">DLR-IL-108</code>, driving an uncharacteristic failure spike at 1,200 operating hours.
                 </p>
                 <p>
-                  <strong className="text-white">Recommended S&amp;C Action Plan:</strong>
+                  <strong className="text-white">Recommended Action Plan:</strong>
                 </p>
                 <ul className="list-disc pl-4 space-y-1 text-gray-400">
                   <li>Initiate targeted dealer warranty audits for unvalidated turbocharger claims (<strong className="text-rose-400">$318,000 recoverable</strong>).</li>
@@ -589,9 +588,9 @@ export default function WarrantyIQDashboard() {
           </div>
         </section>
 
-        {/* Section 5: Accenture S&C Business Value Card */}
+        {/* Section 5: After-Market Strategy & Business Value Impact */}
         <section className="p-6 rounded-2xl bg-[#11131E] border border-[#1C2033] space-y-4">
-          <h2 className="text-lg font-bold text-white">Accenture Strategy &amp; Consulting After-Market Impact</h2>
+          <h2 className="text-lg font-bold text-white">After-Market Reliability &amp; Warranty Value Impact</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs text-gray-400">
             <div className="p-4 rounded-xl bg-[#0A0B12] border border-[#1A1D2B]">
               <div className="text-white font-bold text-sm mb-1">$3.2M Warranty Recovery</div>
@@ -611,7 +610,14 @@ export default function WarrantyIQDashboard() {
 
       <footer className="max-w-7xl mx-auto px-6 pt-12 border-t border-[#1A1D2B] flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500">
         <div>Designed &amp; Engineered by Kodati Tejdeep (IIT ISM Dhanbad)</div>
-        <div className="mt-2 sm:mt-0 font-mono">Accenture Strategy &amp; Consulting Technical Showcase</div>
+        <a
+          href="https://github.com/TejdeepKodati/warrantyiq"
+          target="_blank"
+          rel="noreferrer"
+          className="mt-2 sm:mt-0 hover:text-gray-300 transition"
+        >
+          made with <span className="text-rose-500">❤️</span> by tejdeep
+        </a>
       </footer>
     </div>
   );

@@ -1,6 +1,6 @@
 # WarrantyIQ: Predictive Warranty & After-Market Telemetry Intelligence Platform
 
-WarrantyIQ is an enterprise after-market intelligence platform designed to address the key technical and strategic domains of **Accenture Strategy & Consulting (After-Market Service Operations, Warranty Management, and Spare Parts Analytics)**.
+WarrantyIQ is an enterprise after-market intelligence platform designed to address the key technical and strategic domains of **After-Market Service Operations, Warranty Management, and Predictive Spare Parts Analytics**.
 
 It pairs high-performance **Modern C++ Statistical Computing** and **Data Structures & Algorithms** with a modern **Next.js & Tailwind CSS** analytics platform.
 
